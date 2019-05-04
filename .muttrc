@@ -1,0 +1,12 @@
+set realname         = "Robbie Mackenzie"
+set imap_user        = 'rmackenzie8@gmail.com'
+set imap_pass        = '<snip>'
+set spoolfile        = imaps://imap.gmail.com:993/INBOX
+set smtp_url         = "smtp://rmackenzie8@smtp.gmail.com"
+set smtp_pass        = '<snip>'
+set folder           = "imaps://imap.gmail.com"
+set record           = "+[Gmail]/Sent Mail"
+set postponed        = "+[Gmail]/Drafts"
+set header_cache     = ~/.mutt/cache/headers/
+set message_cachedir = ~/.mutt/cache/bodies/
+set certificate_file = ~/.mutt/certificates
