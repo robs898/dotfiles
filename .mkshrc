@@ -1,0 +1,22 @@
+export PATH="$HOME/.local/bin:$PATH"
+
+HISTFILE="$HOME/.mksh_history"
+HISTSIZE=5000
+
+export VISUAL="nvim"
+export EDITOR="$VISUAL"
+export BROWSER="luakit"
+
+alias twitch_chat='sic -h irc.chat.twitch.tv -n <snip> -k "<snip>"'
+alias twitch_list='curl -s -H "Accept: application/vnd.twitchtv.v5+json" -H "Client-ID: <snip>" -X GET "https://api.twitch.tv/helix/streams/" | jq ".data[] | .user_name"'
+function twitch_play {
+        mpv "https://twitch.tv/$1"
+}
+alias play_lofi='mpv https://www.youtube.com/watch?v=hHW1oY26kxQ --no-video --ytdl-format="worst" > /dev/null 2&>1'
+alias hn='lynx gopher://hngopher.com'
+alias lsf='BROWSER=mpv rtv -s livestreamfail'
+alias weather='curl http://wttr.in/'
+
+if [ $(tty) = "/dev/tty1" ]; then
+        startx  > /dev/null 2>&1
+fi
