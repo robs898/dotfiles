@@ -6,3 +6,6 @@
 * luakit
 * rtv
 * hackernews-gopher
+* lynx
+* jq
+* nvim
