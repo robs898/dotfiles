@@ -1,3 +1,10 @@
+require("viewpdf")
+local modes = require("modes")
+local video_cmd_fmt = "mpv --ytdl '%s'"
+local adblock = require("adblock")
+
+adblock.enabled = false
+
 modes.add_binds("ex-follow", {
   { "m", "Hint all links and open the video behind that link externally with MPV.",
       function (w)
