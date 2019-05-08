@@ -1,6 +1,10 @@
 # dotfiles
 
-/etc/hosts with https://github.com/StevenBlack/hosts
+### info
+
+hostsfile: https://github.com/StevenBlack/hosts
+
+transmission blocklist: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
 
 ### software
 * dwm
