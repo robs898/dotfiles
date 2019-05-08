@@ -1,6 +1,6 @@
 # dotfiles
 
-/etc/hosts with https://dev.yeuxdelibad.net/OpenBSD-stuff/zerohosts
+/etc/hosts with https://github.com/StevenBlack/hosts
 
 * dwm
 * dmenu
