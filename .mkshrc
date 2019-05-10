@@ -5,7 +5,8 @@ HISTSIZE=5000
 
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
-export BROWSER="luakit"
+export BROWSER="firefox"
+export TERM="xterm"
 
 alias twitch_chat='sic -h irc.chat.twitch.tv -n <snip> -k "<snip>"'
 alias twitch_list='curl -s -H "Accept: application/vnd.twitchtv.v5+json" -H "Client-ID: <snip>" -X GET "https://api.twitch.tv/helix/streams/" | jq ".data[] | .user_name"'
