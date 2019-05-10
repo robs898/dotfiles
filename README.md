@@ -8,7 +8,6 @@
 * mksh
 * youtube-dl
 * firefox
-* rtv
 * jq
 * nvim
 * sic
@@ -18,14 +17,14 @@
 * sct
 * alsa-utils
 
-### void linux services
+### services
 * tty1
 * tty2
 * dhcpcd
 
 ### hosts block
 
-hostsfile: https://github.com/StevenBlack/hosts
+hostsfile: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 transmission blocklist: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
 
