@@ -30,11 +30,8 @@ hostsfile: https://github.com/StevenBlack/hosts
 transmission blocklist: https://giuliomac.wordpress.com/2014/02/19/best-blocklist-for-transmission/
 
 ### firefox
-user.js and further hardening from pyllyukko: https://github.com/pyllyukko/user.js#further-hardening
+base build just disable password saving
 
-* canvasblocker
-* decentraleyes
-* https everywhere
-* privacy badger
 * ublock origin (hard mode)
+* smart https
 * lastpass
