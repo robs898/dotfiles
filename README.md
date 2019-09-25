@@ -35,3 +35,26 @@ block 3rrd party cookies
 
 * ublock origin (medium mode with [ublock.txt](ublock.txt))
 * lastpass
+
+### brewlist
+ansible
+bash
+curl
+freetds
+git
+git-standup
+gnu-sed
+hadolint
+iftop
+jq
+kompose
+kubernetes-helm
+libssh2
+mysql@5.7
+node
+pyenv
+qemu
+ripgrep
+shellcheck
+tig
+watch
