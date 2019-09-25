@@ -37,12 +37,12 @@ block 3rrd party cookies
 * lastpass
 
 ### brewlist
+```
 ansible
 bash
 curl
 freetds
 git
-git-standup
 gnu-sed
 hadolint
 iftop
@@ -53,8 +53,9 @@ libssh2
 mysql@5.7
 node
 pyenv
-qemu
-ripgrep
-shellcheck
-tig
-watch
+qemu  
+ripgrep   
+shellcheck  
+tig  
+watch  
+```
