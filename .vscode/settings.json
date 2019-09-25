@@ -7,12 +7,10 @@
     "python.formatting.blackArgs": [
         "-l 79"
     ],
-    "terminal.integrated.shell.osx": "/usr/local/bin/bash",
     "editor.minimap.enabled": false,
     "files.associations": {
         "**/templates/**/*.yml": "ansible"
     },
-    "window.zoomLevel": 0,
     "editor.rulers": [
         79
     ],
