@@ -1,0 +1,45 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "python.terminal.activateEnvironment": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "-l 79"
+    ],
+    "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+    "editor.minimap.enabled": false,
+    "files.associations": {
+        "**/templates/**/*.yml": "ansible"
+    },
+    "window.zoomLevel": 0,
+    "editor.rulers": [
+        79
+    ],
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
+    "beautify.config": {
+        "indent_size": 2
+    },
+}
